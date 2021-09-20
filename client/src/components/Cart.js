@@ -30,7 +30,7 @@ function Cart() {
 
 
     axios
-      .get("http://localhost:5000/getUser", {
+      .get("hhttp://52.66.62.104:5000/getUser", {
         headers: {
           "Content-Type": "application/json",
         },
