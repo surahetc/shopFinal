@@ -19,7 +19,7 @@ const app= express();
 const port = 5000;
 app.use(bodyParser.json()); 
 app.use(cors({
-    origin:"*",
+    origin:"http://52.66.62.104:3000",
     methods: ['POST', 'PUT', 'GET', 'OPTIONS', 'HEAD'],
     credentials:true
 }))
