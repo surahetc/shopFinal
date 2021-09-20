@@ -8,7 +8,7 @@ function Header(props) {
     const [user, setUser] = React.useState("");
     React.useEffect(() => {
         axios
-          .get("http://52.66.62.104:5000:5000/getUser", {
+          .get("http://52.66.62.104:5000/getUser", {
             headers: {
               "Content-Type": "application/json",
             },
